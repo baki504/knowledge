@@ -9,7 +9,7 @@ This repository is knowledge memo for myself.
 ## GitHostingServices
 
 ### GitHub
-* 
+* [check-list.md](https://github.com/baki504/knowledge/blob/master/GitHostingServices/GitHub/check-list.md)
 
 ## Tool
 

@@ -1,5 +1,5 @@
 ## Nexusインストール（パッケージ版）
-https://www.sonatype.com/download-oss-sonatype
+https://www.sonatype.com/download-oss-sonatype  
 任意のディレクトリに解凍
 
 ## keystore作成
@@ -29,7 +29,7 @@ keytool -keystore keystore.jks -alias nexus -genkey -keyalg RSA -sigalg SHA256wi
 >(キーストアのパスワードと同じ場合はRETURNを押してください):  
 
 ##  HTTPSコネクタ設定
-https://help.sonatype.com/repomanager3/security/configuring-ssl#ConfiguringSSL-InboundSSL-ConfiguringtoServeContentviaHTTPS
+https://help.sonatype.com/repomanager3/security/configuring-ssl#ConfiguringSSL-InboundSSL-ConfiguringtoServeContentviaHTTPS  
 「How to Enable the HTTPS Connector」の2以降に記載のとおり。
 
 ## Nexus起動

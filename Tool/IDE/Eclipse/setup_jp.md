@@ -1,6 +1,13 @@
-# Eclipse設定
+# Pleiades All in One設定
 
-EclipseでJavaを使って開発をする際に設定しておくと便利な設定。
+PleiadesでJavaを使って開発をする際に設定しておくと便利な設定。
+
+## 英語化
+
+1. `<PLEIADES_HOME>\eclipse\dropins\MergeDoc`を削除
+1. `<PLEIADES_HOME>\eclipse\eclipse.ini`を以下の通り編集
+    * `-javaagent:dropins/MergeDoc/eclipse/plugins/jp.sourceforge.mergedoc.pleiades/pleiades.jar`をコメントアウト
+    * 最下行に"-Duser.language=en_US"を追加
 
 ## パースペクティブ
 
@@ -31,3 +38,4 @@ EclipseでJavaを使って開発をする際に設定しておくと便利な設
 ## プラグイン
 
 * SonaLint
+* EGradle

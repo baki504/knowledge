@@ -3,6 +3,12 @@
 各作業断面で順守すべきチェック項目
 ※EclipseでのJava開発を想定
 
+## コーディング開始時
+
+* fork元のmasterブランチを最新化できていること
+* fork元 → 先のmasterブランチマージができていること
+* fork先のmasterブランチからPull Request用のブランチを作成できていること
+
 ## commit/push時
 
 * 想定通りのブランチを選択していること

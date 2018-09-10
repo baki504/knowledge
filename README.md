@@ -16,7 +16,7 @@ This repository is knowledge memo for myself.
 
 ### IDE
 #### Eclipse
-* [setup.md](https://github.com/baki504/knowledge/blob/master/Tool/IDE/Eclipse/setup.md)
+* [setup_jp.md](https://github.com/baki504/knowledge/blob/master/Tool/IDE/Eclipse/setup_jp.md)
 
 ## Working
 

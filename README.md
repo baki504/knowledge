@@ -5,17 +5,18 @@ This repository is knowledge memo for myself.
 ## Book
 
 ## Doker
+* [NexusRepositoryManager.md](https://github.com/baki504/knowledge/blob/master/Docker/NexusRepositoryManager.md)
 
 ## GitHostingServices
 
 ### GitHub
-* 
+* [check-list.md](https://github.com/baki504/knowledge/blob/master/GitHostingServices/GitHub/check-list.md)
 
 ## Tool
 
 ### IDE
 #### Eclipse
-* [setup.md](https://github.com/baki504/knowledge/blob/master/Tool/IDE/Eclipse/setup.md)
+* [setup_jp.md](https://github.com/baki504/knowledge/blob/master/Tool/IDE/Eclipse/setup_jp.md)
 
 ## Working
 

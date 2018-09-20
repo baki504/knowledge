@@ -8,3 +8,7 @@ gzip
 grep
 more
 alternative
+wc
+find
+touch
+

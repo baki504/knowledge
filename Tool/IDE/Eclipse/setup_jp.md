@@ -37,6 +37,7 @@ PleiadesでJavaを使って開発をする際に設定しておくと便利な�
 
 ## プラグイン
 
+* IBM WebSphere Application Server V9.x Developer Tools for Photon
 * SonaLint
 * EGradle
     * 対象プロジェクトルート右クリック > Change EGradle root project

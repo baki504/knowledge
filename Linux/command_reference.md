@@ -85,6 +85,26 @@ grep -n pattern file.txt
 | -B 行数 | --before-context=行数 | 一致した行の前「行数」行を表示 |
 | -A 行数 | --after-context=行数 | 一致した行の後「行数」行を表示  |
 
+
+## find
+ファイルを検索する
+
+### サンプル
+
+```bash
+# 名前で検索
+find / -name pattern
+
+# パスを省略するとカレント以下のディレクトリを検索する
+find -name pattern
+
+# ルートから"profile"という名前のファイルを検索する
+# 2>/dev/nullはエラーメッセージを捨てる
+find / -name profile -type f 2>/dev/null
+
+```
+
+
 <!-- ********** リファレンスひな型　ここから **********
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
 

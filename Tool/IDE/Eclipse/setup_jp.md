@@ -37,6 +37,7 @@ PleiadesでJavaを使って開発をする際に設定しておくと便利な�
 
 ## プラグイン
 
+* [lombok](https://projectlombok.org/)
 * IBM WebSphere Application Server V9.x Developer Tools for Photon
 * SonaLint
 * EGradle

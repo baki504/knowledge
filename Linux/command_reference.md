@@ -1,6 +1,17 @@
 
 忘れがちなコマンド、新しく知ったコマンドなどをまとめる。
 
+# 目次（順不同）
+
+* gzip
+* grep
+* more
+* alternative
+* wc
+* find
+* touch
+* df
+* curl
 
 
 ## tar
@@ -44,15 +55,7 @@ tar -xzvf data0809.tar.gz
 |  |  |  |
 
 
-* gzip
-* grep
-* more
-* alternative
-* wc
-* find
-* touch
-* df
-* curl
+
 
 ## コピー用
 | 省略 | 非省略 | 意味 |

@@ -33,8 +33,11 @@
 | command + shift + 4 | 範囲選択箇所（ドラッグを離して範囲確定）*2 | -  | ○ |
 | control + command + shift + 4 | 範囲選択箇所（ドラッグを離して範囲確定）*2 | ○  | - |
 
-*1 デスクトップ
-*2 SPACE押下でマウスオーバー中のウィンドウを選択
+* *1 デスクトップ
+* *2 SPACE押下でマウスオーバー中のウィンドウを選択
 
+## 検証環境
+* 本体：MacBook Air (11-inch, Early 2015)
+* OS：macOS High Sierra
 
 [Back to Outline](https://github.com/baki504/knowledge/blob/master/README.md)

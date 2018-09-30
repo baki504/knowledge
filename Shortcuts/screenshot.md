@@ -1,10 +1,6 @@
 # Windows (Surface Series)
 
-## 検証環境
-* 本体：Surface Pro (第5世代）
-* キーボード：Surface Pro 4 Signature タイプカバー (Alcantara)
-* OS：Windows 10 Pro
-
+## スクリーンショット取得ショートカット一覧
 
 | 入力 | 取得範囲 | クリップボードへのコピー | ファイル保存* |
 |:------|:------|:-------:|:------:|
@@ -18,6 +14,10 @@
 
 `C:\Users\<user_name>\Pictures\Screenshots`
 
+## 検証環境
+* 本体：Surface Pro (第5世代）
+* キーボード：Surface Pro 4 Signature タイプカバー (Alcantara)
+* OS：Windows 10 Pro
 
 
 # macOS

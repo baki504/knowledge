@@ -1,7 +1,9 @@
 # Windows (Surface Series)
 
 ## 検証環境
-Surface Pro (第5世代）, Windows10
+* 本体：Surface Pro (第5世代）
+* キーボード：Surface Pro 4 Signature タイプカバー (Alcantara)
+* OS：Windows 10 Pro
 
 
 | 入力 | 取得範囲 | クリップボードへのコピー | ファイル保存* |

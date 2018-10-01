@@ -24,7 +24,7 @@ dir /s/b | find ".md" | find /v "%README_FILE%" | find /v "%TEMPLATE_FILE%">%TMP
 rem #########################
 rem ## Create a README.md
 rem #########################
-echo # Outline>> %README_FILE%
+echo # Table of Contents>> %README_FILE%
 echo.>> %README_FILE%
 echo This repository is knowledge memo for myself.>> %README_FILE%
 echo.>> %README_FILE%

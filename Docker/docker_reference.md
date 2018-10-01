@@ -3,11 +3,13 @@
 
 ## 概要図
 
+基本的な作業の流れ
+
 <img src="https://github.com/baki504/knowledge/blob/master/Docker/img/docker_overview.png" width="50%"/>
 
 ### 参考リンク
-ドットインストール Docker入門 > #04 作業の流れと用語を理解しよう
-
+ドットインストール Docker入門 > #04 作業の流れと用語を理解しよう<br/>
+https://dotinstall.com/lessons/basic_docker/27704
 
 ## 実行例
 
@@ -68,11 +70,11 @@ docker commit XXX baki504/hello
 * 実行はdocker buildというコマンドを使う
 
 
-### Dockerfile
+### Dockerfileサンプル
 
 ```bash
 FROM centos
-MAINTAINER baki504 <XXX@msn.com>
+MAINTAINER Yu Takada <baki504@msn.com>
 # RUN: buildするときに実行される
 RUN echo "now building..."
 # CMD: runする（ImageからContainer生成、実行）ときに実行される
@@ -82,8 +84,6 @@ CMD ["echo","now running..."]
 ```
 
 ### コマンド例
-
-前提：カレントディレクトリにDockerfileが配置されていること
 
 ```bash
 docker build -t baki504/hello .

@@ -1,31 +1,54 @@
-# Pleiades All in One設定
+# Pleiades All in One Eclipse設定
 
-PleiadesでJavaを使って開発をする際に設定しておくと便利な設定。
+[Pleiades All in One](http://mergedoc.osdn.jp/)でJavaのWeb開発をする際に役立つプラグイン、設定など。
 
-## 英語化
+## プラグイン
 
-1. `<PLEIADES_HOME>\eclipse\dropins\MergeDoc`を削除
-1. `<PLEIADES_HOME>\eclipse\eclipse.ini`を以下の通り編集
-    * `-javaagent:dropins/MergeDoc/eclipse/plugins/jp.sourceforge.mergedoc.pleiades/pleiades.jar`をコメントアウト
-    * 最下行に"-Duser.language=en_US"を追加
+* [lombok](https://projectlombok.org/)
+* [Markdown Text Editor](https://marketplace.eclipse.org/content/markdown-text-editor)
+* [Darkest Dark Theme with DevStyle](https://marketplace.eclipse.org/content/darkest-dark-theme-devstyle)
+* [SonaLint](https://marketplace.eclipse.org/content/sonarlint)
 
-## パースペクティブ
+## 設定
 
-* Git
+### パースペクティブ
+
 * JavaEE
+* Git
 
-## ビュー
+### ビュー
 
 * パッケージエクスプローラ
     * パッケージ・プレゼンテーション > 階層化
     * フィルター .*リソース解除
+* Markdown View
 
-## 設定
+### 設定
+
+* 一般 > エディター > ファイルの関連付け
+    * .md: Markdown Editor -> デフォルト
 
 * Java
-    * インストール済みのJRE > JDK追加
+    * インストール済みのJRE > 任意のJDK追加
     * コード・スタイル > フォーマッター > 編集 > タブ・ポリシー > スペースのみ
+        * インデント > タブ・ポリシー: スペースのみ、
+        * 行折り返し > 行の最大幅: 120
+        * 行折り返し > 折り返し設定 > 関数呼び出し > 修飾オブジェクト割り振り引数
+            * 必要時以外は最初の要素以外の全ての要素を折り返す
+            * 行が最大行幅より短くても強制分割 ON
+            * 1つごとにインデント
 * Maven > インストール > 追加
+
+* XML
+    * XMLファイル > エディター
+        * 行の幅: 120
+        * スペースを使用インデント > インデントサイズ: 2
+
+* Web
+    * HTML ファイル > エディター
+        * 行の幅: 120
+        インデント・サイズ: 2
+
 * チーム > Git
     * 構成 > キー > user > email, name を追加
     * ヒストリー > 相対日付 チェックオフ
@@ -35,12 +58,11 @@ PleiadesでJavaを使って開発をする際に設定しておくと便利な�
         * 起動前に、編集中の必須エディターを保存
         * 起動操作 > 常に前回起動したアプリケーションを起動する
 
-## プラグイン
+## 英語化
 
-* [lombok](https://projectlombok.org/)
-* IBM WebSphere Application Server V9.x Developer Tools for Photon
-* SonaLint
-* EGradle
-    * 対象プロジェクトルート右クリック > Change EGradle root project
+1. `<PLEIADES_HOME>\eclipse\dropins\MergeDoc`を削除
+1. `<PLEIADES_HOME>\eclipse\eclipse.ini`を以下の通り編集
+    * `-javaagent:dropins/MergeDoc/eclipse/plugins/jp.sourceforge.mergedoc.pleiades/pleiades.jar`をコメントアウト
+    * 最下行に"-Duser.language=en_US"を追加
 
 [Back to Outline](https://github.com/baki504/knowledge/blob/master/README.md)

@@ -6,6 +6,7 @@ This repository is knowledge memo for myself.
 * [Git\github_check_list.md](https://github.com/baki504/knowledge/blob/master/Git/github_check_list.md)
 * [Git\github_recovery.md](https://github.com/baki504/knowledge/blob/master/Git/github_recovery.md)
 * [Linux\command_reference.md](https://github.com/baki504/knowledge/blob/master/Linux/command_reference.md)
+* [Shortcuts\win_mac_screenshot.md](https://github.com/baki504/knowledge/blob/master/Shortcuts/win_mac_screenshot.md)
 * [Tool\NexusRepositoryManager.md](https://github.com/baki504/knowledge/blob/master/Tool/NexusRepositoryManager.md)
 * [Tool\ApplicationServer\WebSphereApplicationServer.md](https://github.com/baki504/knowledge/blob/master/Tool/ApplicationServer/WebSphereApplicationServer.md)
 * [Tool\CI\Jenkins.md](https://github.com/baki504/knowledge/blob/master/Tool/CI/Jenkins.md)
